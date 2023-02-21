@@ -69,7 +69,7 @@ export default function Swap() {
             outputCurrency={currencies[Field.OUTPUT]}
             isChartExpanded={isChartExpanded}
             setIsChartExpanded={setIsChartExpanded}
-            isChartDisplayed={isChartDisplayed}
+            isChartDisplayed={false}
             currentSwapPrice={singleTokenPrice}
           />
         )}
@@ -83,12 +83,12 @@ export default function Swap() {
                 outputCurrency={currencies[Field.OUTPUT]}
                 isChartExpanded={isChartExpanded}
                 setIsChartExpanded={setIsChartExpanded}
-                isChartDisplayed={isChartDisplayed}
+                isChartDisplayed={false}
                 currentSwapPrice={singleTokenPrice}
                 isMobile
               />
             }
-            isOpen={isChartDisplayed}
+            isOpen={false}
             setIsOpen={setIsChartDisplayed}
           />
         )}
