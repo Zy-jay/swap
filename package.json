@@ -13,7 +13,7 @@
     "dev:blog": "yarn turbo run dev --filter=blog...",
     "storybook": "turbo run start --filter=uikit...",
     "build": "turbo run build --filter=web...",
-    "start": "turbo run start --filter=web",
+    "start": "turbo run start --port 10000 --filter=web",
     "test:config": "yarn turbo run test:config --filter=[HEAD^1]",
     "test:ci": "yarn turbo run test --filter=[HEAD^1]",
     "lint": "turbo run lint --filter=web",
